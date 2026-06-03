@@ -1,0 +1,20 @@
+2026-06-03 21:25:24,105 - __main__ - INFO - Database connection established successfully.
+2026-06-03 21:25:24,241 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-03 21:25:24,256 - __main__ - INFO - Data wrangling completed successfully. Processed DataFrame shape: (876, 26)   
+2026-06-03 21:35:07,573 - __main__ - INFO - Database connection established successfully.
+2026-06-03 21:35:07,713 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-03 21:35:07,728 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-03 21:35:07,729 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-03 21:35:07,739 - __main__ - INFO - Missing values handled successfully.
+2026-06-03 21:40:29,247 - __main__ - INFO - Database connection established successfully.
+2026-06-03 21:40:29,384 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-03 21:40:29,399 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-03 21:40:29,400 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-03 21:40:29,414 - __main__ - INFO - Missing values handled successfully.
+2026-06-03 21:40:29,421 - __main__ - INFO - Timestamps converted to local time successfully.
+2026-06-03 21:40:47,896 - __main__ - INFO - Database connection established successfully.
+2026-06-03 21:40:48,006 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-03 21:40:48,012 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-03 21:40:48,012 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-03 21:40:48,019 - __main__ - INFO - Missing values handled successfully.
+2026-06-03 21:40:48,022 - __main__ - INFO - Timestamps converted to local time successfully.
