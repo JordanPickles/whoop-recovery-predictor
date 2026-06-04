@@ -19,7 +19,12 @@ class WhoopDB():
         self.connection = self.engine.connect()
 
     def load_raw_data(self, query: str) -> pd.DataFrame:
-        """Executes a SQL query and returns the results as a pandas DataFrame."""       
+        """Executes a SQL query and returns the results as a pandas DataFrame.
+        Args:
+            query (str): The SQL query to be executed.
+        Returns:
+            pd.DataFrame: DataFrame containing the results of the SQL query.
+        """       
         
         try:
             df = pd.read_sql_query(query, self.connection)
@@ -29,11 +34,14 @@ class WhoopDB():
             return pd.DataFrame()
     
     def load_initial_whoop_data(self) -> pd.DataFrame:
-        """Loads Whoop data using the predefined SQL query."""
+        """Loads Whoop data using the predefined SQL query.
+        Returns:
+            pd.DataFrame: DataFrame containing the initial Whoop data loaded from the database.
+        """
         query_text ="""SELECT 
             -- identifiers
             R.cycle_id
-            , R.created_at::date  AS date
+            , R.created_at  AS date
 
             -- recovery score
             , R.recovery_score
