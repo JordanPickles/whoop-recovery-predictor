@@ -18,11 +18,10 @@ class Settings(BaseSettings):
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"
-    
-    # ── Millisecond columns to convert to hours ──────────────────────────
-
 
 settings = Settings()
+
+# Millisecond columns to convert to hours ──────────────────────────
 
 MILLI_TO_HOURS_COLUMNS = [
     "total_in_bed_time_milli",
@@ -31,3 +30,12 @@ MILLI_TO_HOURS_COLUMNS = [
     "total_slow_wave_sleep_time_milli",
     "total_rem_sleep_time_milli"
 ]
+
+
+# Anomalous day flag / alcohol consumption flag thresholds ──────────────────────────
+RED_RECOVERY_SCORE_THRESHOLD = 34
+HRV_SURPRESSION_LEVEL = 0.67 # Used to find values with a 33% decrease in HRV which is associated with alcohol consumption the next day based on the study: https://journals.physiology.org
+
+# Sleep Consistency Inputs
+SLEEP_CONSISTENCY_WINDOW = 5
+MINUTES_PER_DAY = 1440

@@ -4,12 +4,12 @@ from feature_engineering import FeatureEngineer
 import logging
 from logging_config import setup_logging
 import pandas as pd
+import time
+import config
 
 #TODO: 
 
 # - Add Error Handling and Docstrings to all functions
-
-
 
 setup_logging()
 logger = logging.getLogger(__name__)
@@ -45,15 +45,21 @@ class DataPipeline():
         df_engineered = engineer.create_rolling_averages(cols=['hrv_rmssd_milli', 'resting_heart_rate','cycle_strain'], window=7)
         logger.info("Rolling averages created successfully.")
 
+        df_engineered = engineer.create_day_of_week(date_col='date_local')
+        logger.info("Day of week feature created successfully.")
         
+        df_engineered = engineer.create_anomalous_day_flag(recovery_score_col='recovery_score', recovery_threshold=config.RED_RECOVERY_SCORE_THRESHOLD, hrv_threshold=config.HRV_SURPRESSION_LEVEL)
+        logger.info("Anomalous day flag created successfully.")
+
+        df_engineered = engineer.create_sleep_decimal_score(col_sleep_start='sleep_start_local', col_sleep_end='sleep_end_local')
+        logger.info("Sleep decimal score created successfully.")
         return df_engineered
 
+        #TODO - Add sleep consistency score feature engineering step here and update the create_sleep_matrix and calculate_jaccard_similarity functions to take in the necessary data for the sleep consistency score calculation.
 
 
 if __name__ == "__main__":
     pipeline = DataPipeline()
     df_processed = pipeline.pre_process_data()
-    print(df_processed.tail())
-
     df_engineered = pipeline.feature_engineering(df_processed)
     print(df_engineered.tail())
