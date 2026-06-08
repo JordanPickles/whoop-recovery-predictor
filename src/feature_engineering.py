@@ -60,7 +60,7 @@ class FeatureEngineer():
         return self.df
 
     
-    def create_sleep_decimal_score(self, col_sleep_start:str, col_sleep_end:str):
+    def create_sleep_decimal_score(self, col_sleep_start:str, col_sleep_end:str) -> pd.DataFrame:
         """Creates new columns for sleep start and end times in decimal format, where times before noon are represented as their hour value and times after midnight are represented as their hour value plus 24.
         Args:
             col_sleep_start (str): The name of the column containing sleep start times.
@@ -68,16 +68,19 @@ class FeatureEngineer():
         Returns:
             pd.DataFrame: DataFrame with the new decimal sleep time columns."""
         try:
-            self.df[f"{col_sleep_start}_decimal"] = np.where(self.df[col_sleep_start] < 12,
-                                                                self.df[col_sleep_start] + 24,
-                                                                self.df[col_sleep_start]
+            self.df[f"{col_sleep_start}_decimal"] = pd.to_datetime(self.df[col_sleep_start]).dt.hour + (pd.to_datetime(self.df[col_sleep_start]).dt.minute / 60)
+            self.df[f"{col_sleep_start}_decimal"] = np.where(self.df[f"{col_sleep_start}_decimal"] < 12,
+                                                                self.df[f"{col_sleep_start}_decimal"] + 24,
+                                                                self.df[f"{col_sleep_start}_decimal"]
                                                                 )     
-            self.df[f"{col_sleep_end}_decimal"] = np.add(self.df[col_sleep_end],24)
+            
+            self.df[f"{col_sleep_end}_decimal"] = pd.to_datetime(self.df[col_sleep_end]).dt.hour + (pd.to_datetime(self.df[col_sleep_end]).dt.minute / 60)
+            self.df[f"{col_sleep_end}_decimal"] = np.add(self.df[f"{col_sleep_end}_decimal"],24)
         except Exception as e:
             print(f"Error creating sleep_decimal_score feature: {e}")
         return self.df
 
-    def return_n_day_rolling_window_rows(self, date_col:str, day_window:int, start_date:pd.Timestamp) -> pd.DataFrame:
+    def return_n_day_rolling_window_rows(self, date_col:str, day_window:int, date:pd.Timestamp) -> pd.DataFrame:
         """Returns the rows for the specified number of days rolling window.
         Args:
             date_col (str): The name of the column containing dates.
@@ -85,8 +88,9 @@ class FeatureEngineer():
             start_date (pd.Timestamp): The starting date for the rolling window.
         Returns:
             pd.DataFrame: DataFrame with the rows for the rolling window."""
-        end_date = start_date - pd.Timedelta(days=day_window)
-        return self.df[(self.df[date_col] >= start_date) & (self.df[date_col] < end_date)]
+        
+        start_date = date.date() - pd.Timedelta(days=day_window)
+        return self.df[(self.df[date_col].dt.date > start_date) & (self.df[date_col].dt.date <= date.date())]
 
     def recreate_sleep_consistency_score(self, col_sleep_start:str, col_sleep_end:str, day_minutes:int, day_window:int) -> pd.DataFrame:
         """Recreates the sleep consistency score by using Jacard similarity to compare the sleep periods of each day to a rolling window of previous days. The sleep periods are represented as binary vectors indicating whether the user was asleep during each minute of the day.
@@ -98,40 +102,46 @@ class FeatureEngineer():
         Returns:
             pd.DataFrame: DataFrame with the new 'sleep_consistency_score' column."""
 
+        try:
+            for date in self.df['date_local'].unique():
+                df_sleep_consistency_window = self.return_n_day_rolling_window_rows('date_local', day_window, date)
+                n_days = len(df_sleep_consistency_window)
+                try:
+                    if n_days != day_window: # Not enough previous days to calculate consistency score so loop exit
+                        consistency = np.nan
+                    else:
+                        sleep_matrix = self.create_sleep_matrix(day_minutes, n_days, df_sleep_consistency_window, col_sleep_start, col_sleep_end)
+                        consistency = self.calculate_jaccard_similarity(sleep_matrix, n_days)
 
-        for date in self.df['date_local'].unique():
-            df_sleep_consistency_window = self.return_n_day_rolling_window_rows(date_col='date_local', day_window=day_window, start_date=date)
-            if len(df_sleep_consistency_window) < day_window: # Not enough previous days to calculate consistency score so loop exit
-                consistency = np.nan
-            else:
-                sleep_matrix = self.create_sleep_matrix(day_minutes, day_window, df_sleep_consistency_window)
-                consistency = self.calculate_jaccard_similarity(sleep_matrix, day_window)
+                    self.df.loc[self.df['date_local'] == date, 'sleep_consistency_percentage_recalculated'] = consistency
+                except Exception as e:
+                    print(f"Error recreating sleep on {self.df['date_local']}: {e}")
 
-            self.df['sleep_consistency_percentage'] = consistency
+        except Exception as e:
+            print(F"Error Recreating Sleep Score: {e}")
         return self.df
 
-    def create_sleep_matrix(self, day_minutes: int, day_window: int, df_sleep_consistency_window: pd.DataFrame) -> np.ndarray:
+    def create_sleep_matrix(self, day_minutes: int, n_days: int, df_sleep_consistency_window: pd.DataFrame, col_sleep_start:str, col_sleep_end:str) -> np.ndarray:
         minutes = np.arange(day_minutes)/ 60 # decmimal hours in a day
-        sleep_matrix = np.zeros((day_window, len(minutes)), dtype=bool)
+
+        sleep_matrix = np.zeros((n_days, len(minutes)), dtype=bool)
         for i, (start, end) in enumerate(zip(
-            df_sleep_consistency_window['sleep_start_decimal'], 
-            df_sleep_consistency_window['sleep_end_decimal']
+            df_sleep_consistency_window[f"{col_sleep_start}_decimal"], 
+            df_sleep_consistency_window[f"{col_sleep_end}_decimal"]
             )):
             start_normalised = start % 24 # Normalise to 0-24 range
             end_normalised = end % 24
         
-            if end_normalised[i] < start_normalised[i]: # Sleep window crosses midnight (typical)
-                sleep_matrix[i, (minutes >= start_normalised[i]) | (minutes < end_normalised[i])] = 1  
+            if end_normalised < start_normalised: # Sleep window crosses midnight (typical)
+                sleep_matrix[i, (minutes >= start_normalised) | (minutes < end_normalised)] = 1  
             else:
-                sleep_matrix[i, (minutes >= start_normalised[i]) & (minutes < end_normalised[i])] = 1 
-                scores = []
-
+                sleep_matrix[i, (minutes >= start_normalised) & (minutes < end_normalised)] = 1 
         return sleep_matrix
     
-    def calculate_jaccard_similarity(self, sleep_matrix: np.ndarray, day_window) -> float:
+    def calculate_jaccard_similarity(self, sleep_matrix: np.ndarray, n_days: int) -> float:
         scores = []
-        for i in range(day_window):
-            for j in range(i + 1, day_window):
+        for i in range(n_days):
+            for j in range(i + 1, n_days):
                 intersection = (sleep_matrix[i] & sleep_matrix[j]).sum()
                 union = (sleep_matrix[i] | sleep_matrix[j]).sum()
                 if union > 0:

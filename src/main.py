@@ -53,7 +53,13 @@ class DataPipeline():
 
         df_engineered = engineer.create_sleep_decimal_score(col_sleep_start='sleep_start_local', col_sleep_end='sleep_end_local')
         logger.info("Sleep decimal score created successfully.")
+        
+        df_engineered = engineer.recreate_sleep_consistency_score('sleep_start_local', 'sleep_end_local', config.MINUTES_PER_DAY, config.SLEEP_CONSISTENCY_WINDOW)
+
+        
         return df_engineered
+
+
 
         #TODO - Add sleep consistency score feature engineering step here and update the create_sleep_matrix and calculate_jaccard_similarity functions to take in the necessary data for the sleep consistency score calculation.
 
@@ -62,4 +68,8 @@ if __name__ == "__main__":
     pipeline = DataPipeline()
     df_processed = pipeline.pre_process_data()
     df_engineered = pipeline.feature_engineering(df_processed)
-    print(df_engineered.tail())
+
+    WHOOP_SCORE = df_engineered['sleep_consistency_percentage'].mean()
+    Recalculated_Score = df_engineered['sleep_consistency_percentage_recalculated'].mean()
+
+    print(f"Whoop Score: {WHOOP_SCORE:.2f} vs Recalculated Score: {Recalculated_Score:.2f}")
