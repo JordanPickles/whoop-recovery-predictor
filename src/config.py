@@ -35,7 +35,3 @@ MILLI_TO_HOURS_COLUMNS = [
 # Anomalous day flag / alcohol consumption flag thresholds ──────────────────────────
 RED_RECOVERY_SCORE_THRESHOLD = 34
 HRV_SURPRESSION_LEVEL = 0.67 # Used to find values with a 33% decrease in HRV which is associated with alcohol consumption the next day based on the study: https://journals.physiology.org
-
-# Sleep Consistency Inputs
-SLEEP_CONSISTENCY_WINDOW = 5
-MINUTES_PER_DAY = 1440

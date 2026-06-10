@@ -17,6 +17,7 @@ class DataWrangler():
                 self.df.drop(columns=[col], inplace=True)
         return self.df
     
+    
     def create_total_sleep_time_hours(self):
         """Creates a new column 'total_sleep_time_hours' by summing the individual sleep stage duration columns in hours.
         Returns:
