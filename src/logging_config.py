@@ -9,7 +9,7 @@ def setup_logging() -> None:
     logging.basicConfig(
         level=logging.INFO,
         format=log_format,
-        filename= "src/pipeline_logs.log",
+        filename= os.path.join(os.path.dirname(__file__), "pipeline_logs.log")
 
     )
     logging.getLogger("sqlalchemy.engine").setLevel(logging.WARNING)
