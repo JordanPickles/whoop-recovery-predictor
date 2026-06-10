@@ -1,0 +1,618 @@
+2026-06-03 21:25:24,105 - __main__ - INFO - Database connection established successfully.
+2026-06-03 21:25:24,241 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-03 21:25:24,256 - __main__ - INFO - Data wrangling completed successfully. Processed DataFrame shape: (876, 26)   
+2026-06-03 21:35:07,573 - __main__ - INFO - Database connection established successfully.
+2026-06-03 21:35:07,713 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-03 21:35:07,728 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-03 21:35:07,729 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-03 21:35:07,739 - __main__ - INFO - Missing values handled successfully.
+2026-06-03 21:40:29,247 - __main__ - INFO - Database connection established successfully.
+2026-06-03 21:40:29,384 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-03 21:40:29,399 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-03 21:40:29,400 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-03 21:40:29,414 - __main__ - INFO - Missing values handled successfully.
+2026-06-03 21:40:29,421 - __main__ - INFO - Timestamps converted to local time successfully.
+2026-06-03 21:40:47,896 - __main__ - INFO - Database connection established successfully.
+2026-06-03 21:40:48,006 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-03 21:40:48,012 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-03 21:40:48,012 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-03 21:40:48,019 - __main__ - INFO - Missing values handled successfully.
+2026-06-03 21:40:48,022 - __main__ - INFO - Timestamps converted to local time successfully.
+2026-06-04 06:42:29,214 - __main__ - INFO - Database connection established successfully.
+2026-06-04 06:42:30,886 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-04 06:42:30,899 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-04 06:42:30,900 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-04 06:42:30,909 - __main__ - INFO - Missing values handled successfully.
+2026-06-04 06:42:30,913 - __main__ - INFO - Timestamps converted to local time successfully.
+2026-06-04 06:47:33,543 - __main__ - INFO - Database connection established successfully.
+2026-06-04 06:47:33,683 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-04 06:47:33,698 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-04 06:47:33,699 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-04 06:47:33,711 - __main__ - INFO - Missing values handled successfully.
+2026-06-04 06:47:33,718 - __main__ - INFO - Timestamps converted to local time successfully.
+2026-06-04 06:47:52,399 - __main__ - INFO - Database connection established successfully.
+2026-06-04 06:47:52,521 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-04 06:47:52,526 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-04 06:47:52,527 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-04 06:47:52,534 - __main__ - INFO - Missing values handled successfully.
+2026-06-04 06:47:52,542 - __main__ - INFO - Timestamps converted to local time successfully.
+2026-06-04 06:48:29,904 - __main__ - INFO - Database connection established successfully.
+2026-06-04 06:48:30,032 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-04 06:48:30,047 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-04 06:48:30,048 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-04 06:48:30,058 - __main__ - INFO - Missing values handled successfully.
+2026-06-04 06:48:30,063 - __main__ - INFO - Timestamps converted to local time successfully.
+2026-06-04 06:48:49,078 - __main__ - INFO - Database connection established successfully.
+2026-06-04 06:48:49,225 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-04 06:48:49,242 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-04 06:48:49,243 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-04 06:48:49,252 - __main__ - INFO - Missing values handled successfully.
+2026-06-04 06:48:49,262 - __main__ - INFO - Timestamps converted to local time successfully.
+2026-06-04 06:49:54,641 - __main__ - INFO - Database connection established successfully.
+2026-06-04 06:49:54,849 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-04 06:49:54,871 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-04 06:49:54,873 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-04 06:49:54,938 - __main__ - INFO - Missing values handled successfully.
+2026-06-04 06:49:54,952 - __main__ - INFO - Timestamps converted to local time successfully.
+2026-06-04 06:50:24,519 - __main__ - INFO - Database connection established successfully.
+2026-06-04 06:50:24,655 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-04 06:50:24,673 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-04 06:50:24,674 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-04 06:50:24,689 - __main__ - INFO - Missing values handled successfully.
+2026-06-04 06:50:24,698 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-04 07:08:12,135 - __main__ - INFO - Database connection established successfully.
+2026-06-04 07:08:12,272 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-04 07:08:12,285 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-04 07:08:12,286 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-04 07:08:12,301 - __main__ - INFO - Missing values handled successfully.
+2026-06-04 07:08:12,381 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-04 07:08:54,284 - __main__ - INFO - Database connection established successfully.
+2026-06-04 07:08:54,473 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-04 07:08:54,504 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-04 07:08:54,508 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-04 07:08:54,531 - __main__ - INFO - Missing values handled successfully.
+2026-06-04 07:08:54,549 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-04 07:09:39,311 - __main__ - INFO - Database connection established successfully.
+2026-06-04 07:09:39,437 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-04 07:09:39,444 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-04 07:09:39,444 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-04 07:09:39,452 - __main__ - INFO - Missing values handled successfully.
+2026-06-04 07:09:39,459 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-04 07:10:04,984 - __main__ - INFO - Database connection established successfully.
+2026-06-04 07:10:05,132 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-04 07:10:05,148 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-04 07:10:05,149 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-04 07:10:05,166 - __main__ - INFO - Missing values handled successfully.
+2026-06-04 07:10:05,174 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-04 07:13:04,418 - __main__ - INFO - Database connection established successfully.
+2026-06-04 07:13:04,553 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-04 07:13:04,569 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-04 07:13:04,570 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-04 07:13:04,583 - __main__ - INFO - Missing values handled successfully.
+2026-06-04 07:13:04,594 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-04 07:13:49,567 - __main__ - INFO - Database connection established successfully.
+2026-06-04 07:13:49,690 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-04 07:13:49,702 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-04 07:13:49,703 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-04 07:13:49,715 - __main__ - INFO - Missing values handled successfully.
+2026-06-04 07:13:49,724 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-04 07:14:18,489 - __main__ - INFO - Database connection established successfully.
+2026-06-04 07:14:18,603 - __main__ - INFO - Data loaded successfully. Number of records: 876
+2026-06-04 07:14:18,608 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-04 07:14:18,609 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-04 07:14:18,613 - __main__ - INFO - Missing values handled successfully.
+2026-06-04 07:14:18,617 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-04 07:14:18,648 - __main__ - INFO - Rolling averages created successfully.
+2026-06-05 06:00:37,795 - __main__ - INFO - Database connection established successfully.
+2026-06-05 06:00:37,960 - __main__ - INFO - Data loaded successfully. Number of records: 877
+2026-06-05 06:00:37,966 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-05 06:00:37,967 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-05 06:00:37,973 - __main__ - INFO - Missing values handled successfully.
+2026-06-05 06:00:37,978 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-05 06:00:37,981 - __main__ - INFO - Rolling averages created successfully.
+2026-06-05 06:00:37,982 - __main__ - INFO - Day of week feature created successfully.
+2026-06-05 06:02:41,128 - __main__ - INFO - Database connection established successfully.
+2026-06-05 06:02:41,298 - __main__ - INFO - Data loaded successfully. Number of records: 877
+2026-06-05 06:02:41,310 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-05 06:02:41,310 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-05 06:02:41,318 - __main__ - INFO - Missing values handled successfully.
+2026-06-05 06:02:41,329 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-05 06:02:41,336 - __main__ - INFO - Rolling averages created successfully.
+2026-06-05 06:07:32,439 - __main__ - INFO - Database connection established successfully.
+2026-06-05 06:07:33,618 - __main__ - INFO - Data loaded successfully. Number of records: 877
+2026-06-05 06:07:33,641 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-05 06:07:33,642 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-05 06:07:33,659 - __main__ - INFO - Missing values handled successfully.
+2026-06-05 06:07:33,674 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-05 06:07:33,689 - __main__ - INFO - Rolling averages created successfully.
+2026-06-05 06:08:44,746 - __main__ - INFO - Database connection established successfully.
+2026-06-05 06:08:44,905 - __main__ - INFO - Data loaded successfully. Number of records: 877
+2026-06-05 06:08:44,917 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-05 06:08:44,917 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-05 06:08:44,928 - __main__ - INFO - Missing values handled successfully.
+2026-06-05 06:08:44,940 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-05 06:08:44,956 - __main__ - INFO - Rolling averages created successfully.
+2026-06-05 06:09:35,642 - __main__ - INFO - Database connection established successfully.
+2026-06-05 06:09:35,800 - __main__ - INFO - Data loaded successfully. Number of records: 877
+2026-06-05 06:09:35,813 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-05 06:09:35,814 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-05 06:09:35,826 - __main__ - INFO - Missing values handled successfully.
+2026-06-05 06:09:35,835 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-05 06:09:35,842 - __main__ - INFO - Rolling averages created successfully.
+2026-06-05 06:12:37,094 - __main__ - INFO - Database connection established successfully.
+2026-06-05 06:12:37,282 - __main__ - INFO - Data loaded successfully. Number of records: 877
+2026-06-05 06:12:37,297 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-05 06:12:37,299 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-05 06:12:37,311 - __main__ - INFO - Missing values handled successfully.
+2026-06-05 06:12:37,318 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-05 06:12:37,325 - __main__ - INFO - Rolling averages created successfully.
+2026-06-05 06:15:08,066 - __main__ - INFO - Database connection established successfully.
+2026-06-05 06:15:08,198 - __main__ - INFO - Data loaded successfully. Number of records: 877
+2026-06-05 06:15:08,210 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-05 06:15:08,212 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-05 06:15:08,221 - __main__ - INFO - Missing values handled successfully.
+2026-06-05 06:15:08,227 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-05 06:15:08,233 - __main__ - INFO - Rolling averages created successfully.
+2026-06-05 06:15:08,235 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:14:53,136 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:14:56,045 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:14:56,057 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:14:56,058 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:14:56,071 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:14:56,080 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:14:56,086 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:14:56,087 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:14:56,088 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:14:56,089 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:16:49,426 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:16:49,561 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:16:49,573 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:16:49,574 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:16:49,584 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:16:49,594 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:16:49,600 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:16:49,601 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:16:49,602 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:16:49,603 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:25:28,031 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:25:28,226 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:25:28,240 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:25:28,242 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:25:28,253 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:25:28,259 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:25:28,266 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:25:28,267 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:25:28,268 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:25:28,273 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:33:09,351 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:33:09,790 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:33:09,809 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:33:09,811 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:33:09,822 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:33:09,831 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:33:09,844 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:33:09,851 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:33:09,852 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:33:09,864 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:36:34,049 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:36:34,195 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:36:34,207 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:36:34,208 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:36:34,219 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:36:34,225 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:36:34,232 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:36:34,234 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:36:34,235 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:36:34,239 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:38:57,401 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:38:57,621 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:38:57,653 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:38:57,655 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:38:57,672 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:38:57,684 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:38:57,849 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:38:57,850 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:38:57,853 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:38:57,869 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:39:55,758 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:39:55,882 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:39:55,892 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:39:55,892 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:39:55,901 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:39:55,910 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:39:55,916 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:39:55,917 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:39:55,919 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:39:55,929 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:40:06,004 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:40:06,130 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:40:06,136 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:40:06,136 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:40:06,141 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:40:06,145 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:40:06,148 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:40:06,149 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:40:06,149 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:40:06,155 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:40:17,768 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:40:17,890 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:40:17,897 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:40:17,898 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:40:17,904 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:40:17,912 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:40:17,919 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:40:17,920 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:40:17,921 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:40:17,932 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:42:09,118 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:42:09,260 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:42:09,275 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:42:09,276 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:42:09,291 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:42:09,299 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:42:09,305 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:42:09,307 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:42:09,308 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:42:09,320 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:42:53,709 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:42:53,837 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:42:53,855 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:42:53,856 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:42:53,867 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:42:53,874 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:42:53,881 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:42:53,882 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:42:53,883 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:42:53,890 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:44:01,043 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:44:01,180 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:44:01,193 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:44:01,194 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:44:01,205 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:44:01,211 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:44:01,218 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:44:01,219 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:44:01,221 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:44:01,232 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:48:13,751 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:48:13,897 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:48:13,910 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:48:13,911 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:48:13,922 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:48:13,929 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:48:13,934 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:48:13,935 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:48:13,937 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:48:13,946 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:49:17,260 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:49:17,389 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:49:17,400 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:49:17,400 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:49:17,413 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:49:17,419 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:49:17,424 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:49:17,425 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:49:17,426 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:49:17,433 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:55:19,072 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:55:19,209 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:55:19,221 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:55:19,222 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:55:19,236 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:55:19,245 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:55:19,250 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:55:19,251 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:55:19,252 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:55:19,260 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:55:57,364 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:55:57,662 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:55:57,676 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:55:57,677 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:55:57,694 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:55:57,705 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:55:57,712 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:55:57,713 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:55:57,714 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:55:57,722 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-07 18:58:06,884 - __main__ - INFO - Database connection established successfully.
+2026-06-07 18:58:07,029 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-07 18:58:07,043 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-07 18:58:07,044 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-07 18:58:07,053 - __main__ - INFO - Missing values handled successfully.
+2026-06-07 18:58:07,062 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-07 18:58:07,069 - __main__ - INFO - Rolling averages created successfully.
+2026-06-07 18:58:07,070 - __main__ - INFO - Day of week feature created successfully.
+2026-06-07 18:58:07,071 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-07 18:58:07,080 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:26:47,754 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:26:48,160 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:26:48,170 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:26:48,171 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:26:48,180 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:26:48,187 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:26:48,191 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:26:48,192 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:26:48,193 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:26:48,201 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:27:51,883 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:27:52,039 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:27:52,049 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:27:52,050 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:27:52,063 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:27:52,071 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:27:52,077 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:27:52,078 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:27:52,080 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:27:52,087 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:28:28,254 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:28:28,409 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:28:28,423 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:28:28,424 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:28:28,438 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:28:28,448 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:28:28,454 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:28:28,455 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:28:28,456 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:28:28,463 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:32:48,055 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:32:49,014 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:32:49,027 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:32:49,028 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:32:49,040 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:32:49,051 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:32:49,058 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:32:49,060 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:32:49,061 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:32:49,069 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:35:46,150 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:35:46,323 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:35:46,340 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:35:46,341 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:35:46,357 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:35:46,370 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:35:46,378 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:35:46,381 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:35:46,383 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:35:46,393 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:37:16,846 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:37:17,027 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:37:17,041 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:37:17,042 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:37:17,057 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:37:17,067 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:37:17,075 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:37:17,078 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:37:17,079 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:37:17,089 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:39:58,295 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:39:58,546 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:39:58,570 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:39:58,572 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:39:58,582 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:39:58,589 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:39:58,598 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:39:58,599 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:39:58,602 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:39:58,619 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:42:16,050 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:42:16,220 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:42:16,233 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:42:16,234 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:42:16,246 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:42:16,253 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:42:16,258 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:42:16,259 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:42:16,260 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:42:16,266 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:45:03,319 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:45:03,460 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:45:03,473 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:45:03,474 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:45:03,487 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:45:03,496 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:45:03,502 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:45:03,503 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:45:03,504 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:45:03,513 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:46:40,682 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:46:40,844 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:46:40,853 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:46:40,854 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:46:40,863 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:46:40,869 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:46:40,875 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:46:40,876 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:46:40,877 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:46:40,884 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:48:15,182 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:48:15,349 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:48:15,360 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:48:15,360 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:48:15,374 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:48:15,380 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:48:15,388 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:48:15,389 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:48:15,391 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:48:15,399 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:51:15,925 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:51:16,094 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:51:16,104 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:51:16,105 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:51:16,119 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:51:16,126 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:51:16,135 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:51:16,137 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:51:16,138 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:51:16,148 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:51:54,475 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:51:54,648 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:51:54,666 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:51:54,667 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:51:54,679 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:51:54,698 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:51:54,705 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:51:54,707 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:51:54,710 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:51:54,723 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:57:20,423 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:57:22,017 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:57:22,032 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:57:22,033 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:57:22,047 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:57:22,060 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:57:22,068 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:57:22,070 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:57:22,071 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:57:22,085 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 06:59:34,491 - __main__ - INFO - Database connection established successfully.
+2026-06-08 06:59:34,660 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 06:59:34,673 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 06:59:34,674 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 06:59:34,687 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 06:59:34,694 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 06:59:34,702 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 06:59:34,704 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 06:59:34,705 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 06:59:34,714 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 07:01:50,238 - __main__ - INFO - Database connection established successfully.
+2026-06-08 07:01:50,385 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 07:01:50,399 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 07:01:50,400 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 07:01:50,410 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 07:01:50,418 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 07:01:50,423 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 07:01:50,424 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 07:01:50,425 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 07:01:50,432 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 07:03:30,874 - __main__ - INFO - Database connection established successfully.
+2026-06-08 07:03:31,002 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 07:03:31,021 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 07:03:31,022 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 07:03:31,033 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 07:03:31,042 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 07:03:31,049 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 07:03:31,050 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 07:03:31,052 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 07:03:31,077 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 07:08:06,707 - __main__ - INFO - Database connection established successfully.
+2026-06-08 07:08:06,892 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 07:08:06,908 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 07:08:06,910 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 07:08:06,929 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 07:08:06,944 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 07:08:06,950 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 07:08:06,952 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 07:08:06,953 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 07:08:06,973 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 07:09:53,394 - __main__ - INFO - Database connection established successfully.
+2026-06-08 07:09:53,507 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 07:09:53,513 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 07:09:53,514 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 07:09:53,519 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 07:09:53,524 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 07:09:53,526 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 07:09:53,527 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 07:09:53,528 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 07:09:53,534 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 07:10:39,139 - __main__ - INFO - Database connection established successfully.
+2026-06-08 07:10:39,254 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 07:10:39,259 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 07:10:39,260 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 07:10:39,265 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 07:10:39,269 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 07:10:39,272 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 07:10:39,272 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 07:10:39,273 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 07:10:39,279 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 07:11:36,737 - __main__ - INFO - Database connection established successfully.
+2026-06-08 07:11:36,908 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 07:11:36,918 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 07:11:36,919 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 07:11:36,926 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 07:11:36,932 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 07:11:36,939 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 07:11:36,940 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 07:11:36,942 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 07:11:36,949 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-08 07:12:04,631 - __main__ - INFO - Database connection established successfully.
+2026-06-08 07:12:04,761 - __main__ - INFO - Data loaded successfully. Number of records: 880
+2026-06-08 07:12:04,770 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-08 07:12:04,772 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-08 07:12:04,784 - __main__ - INFO - Missing values handled successfully.
+2026-06-08 07:12:04,791 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-08 07:12:04,795 - __main__ - INFO - Rolling averages created successfully.
+2026-06-08 07:12:04,796 - __main__ - INFO - Day of week feature created successfully.
+2026-06-08 07:12:04,797 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-08 07:12:04,803 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-10 19:37:02,936 - __main__ - INFO - Database connection established successfully.
+2026-06-10 19:37:06,490 - __main__ - INFO - Data loaded successfully. Number of records: 883
+2026-06-10 19:37:06,505 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-10 19:37:06,508 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-10 19:37:06,522 - __main__ - INFO - Missing values handled successfully.
+2026-06-10 19:37:06,533 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-10 19:37:06,542 - __main__ - INFO - Rolling averages created successfully.
+2026-06-10 19:37:06,549 - __main__ - INFO - Day of week feature created successfully.
+2026-06-10 19:37:06,551 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-10 19:37:06,567 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-10 19:38:58,147 - __main__ - INFO - Database connection established successfully.
+2026-06-10 19:39:02,135 - __main__ - INFO - Data loaded successfully. Number of records: 883
+2026-06-10 19:39:02,161 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-10 19:39:02,163 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-10 19:39:02,190 - __main__ - INFO - Missing values handled successfully.
+2026-06-10 19:39:02,218 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-10 19:39:02,233 - __main__ - INFO - Rolling averages created successfully.
+2026-06-10 19:39:02,246 - __main__ - INFO - Day of week feature created successfully.
+2026-06-10 19:39:02,248 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-10 19:39:02,273 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-10 19:40:10,574 - __main__ - INFO - Database connection established successfully.
+2026-06-10 19:40:10,743 - __main__ - INFO - Data loaded successfully. Number of records: 883
+2026-06-10 19:40:10,760 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-10 19:40:10,767 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-10 19:40:10,787 - __main__ - INFO - Missing values handled successfully.
+2026-06-10 19:40:10,799 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-10 19:40:10,806 - __main__ - INFO - Rolling averages created successfully.
+2026-06-10 19:40:10,809 - __main__ - INFO - Day of week feature created successfully.
+2026-06-10 19:40:10,811 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-10 19:40:10,821 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-10 19:47:38,441 - __main__ - INFO - Database connection established successfully.
+2026-06-10 19:47:38,586 - __main__ - INFO - Data loaded successfully. Number of records: 883
+2026-06-10 19:47:38,597 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-10 19:47:38,599 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-10 19:47:38,612 - __main__ - INFO - Missing values handled successfully.
+2026-06-10 19:47:38,624 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-10 19:47:38,631 - __main__ - INFO - Rolling averages created successfully.
+2026-06-10 19:47:38,633 - __main__ - INFO - Day of week feature created successfully.
+2026-06-10 19:47:38,634 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-10 19:47:38,645 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-10 19:54:23,664 - __main__ - INFO - Database connection established successfully.
+2026-06-10 19:54:23,827 - __main__ - INFO - Data loaded successfully. Number of records: 883
+2026-06-10 19:54:23,845 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-10 19:54:23,850 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-10 19:54:23,869 - __main__ - INFO - Missing values handled successfully.
+2026-06-10 19:54:23,881 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-10 19:54:23,903 - __main__ - INFO - Rolling averages created successfully.
+2026-06-10 19:54:23,904 - __main__ - INFO - Day of week feature created successfully.
+2026-06-10 19:54:23,912 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-10 19:54:23,980 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-10 19:55:21,121 - __main__ - INFO - Database connection established successfully.
+2026-06-10 19:55:21,290 - __main__ - INFO - Data loaded successfully. Number of records: 883
+2026-06-10 19:55:21,307 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-10 19:55:21,308 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-10 19:55:21,337 - __main__ - INFO - Missing values handled successfully.
+2026-06-10 19:55:21,349 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-10 19:55:21,359 - __main__ - INFO - Rolling averages created successfully.
+2026-06-10 19:55:21,360 - __main__ - INFO - Day of week feature created successfully.
+2026-06-10 19:55:21,364 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-10 19:55:21,380 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-10 19:55:21,381 - __main__ - INFO - Recovery score shift created successfully
+2026-06-10 19:56:18,817 - __main__ - INFO - Database connection established successfully.
+2026-06-10 19:56:18,943 - __main__ - INFO - Data loaded successfully. Number of records: 883
+2026-06-10 19:56:18,949 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-06-10 19:56:18,950 - __main__ - INFO - Total sleep time hours created successfully.
+2026-06-10 19:56:18,954 - __main__ - INFO - Missing values handled successfully.
+2026-06-10 19:56:18,959 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-06-10 19:56:18,961 - __main__ - INFO - Rolling averages created successfully.
+2026-06-10 19:56:18,962 - __main__ - INFO - Day of week feature created successfully.
+2026-06-10 19:56:18,962 - __main__ - INFO - Anomalous day flag created successfully.
+2026-06-10 19:56:18,968 - __main__ - INFO - Sleep decimal score created successfully.
+2026-06-10 19:56:18,968 - __main__ - INFO - Recovery score shift created successfully
