@@ -92,7 +92,7 @@ class FeatureEngineer():
             'date_local', 'total_light_sleep_time_hours',
             'total_awake_time_hours', 'total_slow_wave_sleep_time_hours',
             'spo2_percentage', 'cycle_max_heart_rate',
-            'sleep_consistency_percentage'
+            'sleep_consistency_percentage', 'anomalous_day_flag'
         ]
         self.df = self.df.drop(columns=cols_to_drop)
         return self.df
