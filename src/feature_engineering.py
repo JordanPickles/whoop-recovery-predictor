@@ -58,7 +58,7 @@ class FeatureEngineer():
         try:
             hrv_median = self.df['hrv_rmssd_milli'].median() # median is more robust to the outliers we know are present
             low_hrv_threshold = hrv_median * hrv_threshold # more conservative requiring the larger decrease based on the study of 33% decrease 
-            self.df['alcohol_consumed_flag'] = ((self.df['recovery_score'] < recovery_threshold) & (self.df['hrv_rmssd_milli'] < low_hrv_threshold)).astype(int)
+            self.df['anomalous_day_flag'] = ((self.df['recovery_score'] < recovery_threshold) & (self.df['hrv_rmssd_milli'] < low_hrv_threshold)).astype(int)
         except Exception as e:
             print(f"Error creating anomalous_day_flag feature: {e}")
         return self.df
@@ -85,14 +85,14 @@ class FeatureEngineer():
         return self.df
 
 
-    def select_features(self) -> pd.DataFrame:
+    def drop_features(self) -> pd.DataFrame:
         cols_to_drop = [
             'cycle_id', 'date', 'sleep_start', 'sleep_end',
             'timezone_offset', 'sleep_start_local', 'sleep_end_local',
             'date_local', 'total_light_sleep_time_hours',
             'total_awake_time_hours', 'total_slow_wave_sleep_time_hours',
             'spo2_percentage', 'cycle_max_heart_rate',
-            'sleep_consistency_percentage', 'anomalous_day_flag'
+            
         ]
         self.df = self.df.drop(columns=cols_to_drop)
         return self.df

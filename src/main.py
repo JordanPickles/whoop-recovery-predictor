@@ -6,10 +6,8 @@ from logging_config import setup_logging
 import pandas as pd
 import time
 import config
+from pydantic_settings import BaseSettings
 
-#TODO: 
-
-# - Add Error Handling and Docstrings to all functions
 
 setup_logging()
 logger = logging.getLogger(__name__)
@@ -56,6 +54,9 @@ class DataPipeline():
         
         df_engineered = engineer.create_recovery_shift_score()
         logger.info("Recovery score shift created successfully")
+
+        df_engineered = engineer.drop_features()
+        logger.info("Columns selected successfully")
     
 
         
@@ -66,5 +67,4 @@ if __name__ == "__main__":
     pipeline = DataPipeline()
     df_processed = pipeline.pre_process_data()
     df_engineered = pipeline.feature_engineering(df_processed)
-    print(df_engineered.head())
     print(df_engineered.columns)
