@@ -832,3 +832,75 @@
 2026-06-10 21:58:50,571 - main - INFO - Sleep decimal score created successfully.
 2026-06-10 21:58:50,572 - main - INFO - Recovery score shift created successfully
 2026-06-10 21:58:50,578 - main - INFO - Columns selected successfully
+2026-06-11 06:21:26,498 - main - INFO - Database connection established successfully.
+2026-06-11 06:21:26,680 - main - INFO - Data loaded successfully. Number of records: 883
+2026-06-11 06:21:26,714 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-06-11 06:21:26,721 - main - INFO - Total sleep time hours created successfully.
+2026-06-11 06:21:26,782 - main - INFO - Missing values handled successfully.
+2026-06-11 06:21:26,836 - main - INFO - Local Timestamps converted into new columns successfully.
+2026-06-11 06:21:26,850 - main - INFO - Rolling averages created successfully.
+2026-06-11 06:21:26,854 - main - INFO - Day of week feature created successfully.
+2026-06-11 06:21:26,857 - main - INFO - Anomalous day flag created successfully.
+2026-06-11 06:21:26,879 - main - INFO - Sleep decimal score created successfully.
+2026-06-11 06:21:27,009 - main - INFO - Recovery score shift created successfully
+2026-06-11 06:21:27,016 - main - INFO - Columns selected successfully
+2026-06-11 06:24:08,040 - main - INFO - Database connection established successfully.
+2026-06-11 06:24:08,178 - main - INFO - Data loaded successfully. Number of records: 883
+2026-06-11 06:24:08,186 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-06-11 06:24:08,187 - main - INFO - Total sleep time hours created successfully.
+2026-06-11 06:24:08,194 - main - INFO - Missing values handled successfully.
+2026-06-11 06:24:08,204 - main - INFO - Local Timestamps converted into new columns successfully.
+2026-06-11 06:24:08,210 - main - INFO - Rolling averages created successfully.
+2026-06-11 06:24:08,213 - main - INFO - Day of week feature created successfully.
+2026-06-11 06:24:08,214 - main - INFO - Anomalous day flag created successfully.
+2026-06-11 06:24:08,223 - main - INFO - Sleep decimal score created successfully.
+2026-06-11 06:24:08,224 - main - INFO - Recovery score shift created successfully
+2026-06-11 06:24:08,225 - main - INFO - Columns selected successfully
+2026-06-11 06:26:02,587 - main - INFO - Database connection established successfully.
+2026-06-11 06:26:02,745 - main - INFO - Data loaded successfully. Number of records: 883
+2026-06-11 06:26:02,767 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-06-11 06:26:02,769 - main - INFO - Total sleep time hours created successfully.
+2026-06-11 06:26:02,791 - main - INFO - Missing values handled successfully.
+2026-06-11 06:26:02,814 - main - INFO - Local Timestamps converted into new columns successfully.
+2026-06-11 06:26:02,825 - main - INFO - Rolling averages created successfully.
+2026-06-11 06:26:02,829 - main - INFO - Day of week feature created successfully.
+2026-06-11 06:26:02,830 - main - INFO - Anomalous day flag created successfully.
+2026-06-11 06:26:02,849 - main - INFO - Sleep decimal score created successfully.
+2026-06-11 06:26:02,851 - main - INFO - Recovery score shift created successfully
+2026-06-11 06:26:02,854 - main - INFO - Columns selected successfully
+2026-06-11 06:46:59,752 - main - INFO - Database connection established successfully.
+2026-06-11 06:46:59,906 - main - INFO - Data loaded successfully. Number of records: 883
+2026-06-11 06:46:59,923 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-06-11 06:46:59,925 - main - INFO - Total sleep time hours created successfully.
+2026-06-11 06:46:59,934 - main - INFO - Missing values handled successfully.
+2026-06-11 06:46:59,945 - main - INFO - Local Timestamps converted into new columns successfully.
+2026-06-11 06:46:59,960 - main - INFO - Rolling averages created successfully.
+2026-06-11 06:46:59,962 - main - INFO - Day of week feature created successfully.
+2026-06-11 06:46:59,964 - main - INFO - Anomalous day flag created successfully.
+2026-06-11 06:46:59,985 - main - INFO - Sleep decimal score created successfully.
+2026-06-11 06:46:59,987 - main - INFO - Recovery score shift created successfully
+2026-06-11 06:46:59,988 - main - INFO - Columns selected successfully
+2026-06-11 06:47:17,129 - main - INFO - Database connection established successfully.
+2026-06-11 06:47:17,278 - main - INFO - Data loaded successfully. Number of records: 883
+2026-06-11 06:47:17,295 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-06-11 06:47:17,297 - main - INFO - Total sleep time hours created successfully.
+2026-06-11 06:47:17,308 - main - INFO - Missing values handled successfully.
+2026-06-11 06:47:17,313 - main - INFO - Local Timestamps converted into new columns successfully.
+2026-06-11 06:47:17,317 - main - INFO - Rolling averages created successfully.
+2026-06-11 06:47:17,318 - main - INFO - Day of week feature created successfully.
+2026-06-11 06:47:17,320 - main - INFO - Anomalous day flag created successfully.
+2026-06-11 06:47:17,348 - main - INFO - Sleep decimal score created successfully.
+2026-06-11 06:47:17,349 - main - INFO - Recovery score shift created successfully
+2026-06-11 06:47:17,350 - main - INFO - Columns selected successfully
+2026-06-11 06:47:26,935 - main - INFO - Database connection established successfully.
+2026-06-11 06:47:27,146 - main - INFO - Data loaded successfully. Number of records: 883
+2026-06-11 06:47:27,165 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-06-11 06:47:27,169 - main - INFO - Total sleep time hours created successfully.
+2026-06-11 06:47:27,189 - main - INFO - Missing values handled successfully.
+2026-06-11 06:47:27,199 - main - INFO - Local Timestamps converted into new columns successfully.
+2026-06-11 06:47:27,205 - main - INFO - Rolling averages created successfully.
+2026-06-11 06:47:27,207 - main - INFO - Day of week feature created successfully.
+2026-06-11 06:47:27,209 - main - INFO - Anomalous day flag created successfully.
+2026-06-11 06:47:27,242 - main - INFO - Sleep decimal score created successfully.
+2026-06-11 06:47:27,243 - main - INFO - Recovery score shift created successfully
+2026-06-11 06:47:27,250 - main - INFO - Columns selected successfully

@@ -89,7 +89,7 @@ class FeatureEngineer():
         cols_to_drop = [
             'cycle_id', 'date', 'sleep_start', 'sleep_end',
             'timezone_offset', 'sleep_start_local', 'sleep_end_local',
-            'date_local', 'total_light_sleep_time_hours',
+             'total_light_sleep_time_hours',
             'total_awake_time_hours', 'total_slow_wave_sleep_time_hours',
             'spo2_percentage', 'cycle_max_heart_rate',
             
