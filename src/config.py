@@ -46,22 +46,3 @@ FEATURE_GROUPS = {
         'respiratory_rate'
     ],
     'Training Load': [
-        'cycle_strain',
-        'cycle_strain_rolling_avg_7',
-        'cycle_avg_heart_rate',
-        'cycle_kilojoule',
-        'day_of_week'
-    ],
-    'Sleep': [
-        'total_sleep_time_hours',
-        'total_rem_sleep_time_hours',
-        'total_in_bed_time_hours',
-        'sleep_efficiency_percentage',
-        'sleep_performance_percentage',
-        'sleep_consistency_percentage',
-        'sleep_start_local_decimal',
-        'sleep_end_local_decimal',
-        'disturbance_count',
-        'sleep_needed_need_from_recent_strain_milli'
-    ]
-}
