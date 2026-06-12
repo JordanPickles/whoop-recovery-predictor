@@ -21,7 +21,7 @@ class Settings(BaseSettings):
 
 settings = Settings()
 
-# Millisecond columns to convert to hours ──────────────────────────
+# Millisecond columns to convert to hours
 
 MILLI_TO_HOURS_COLUMNS = [
     "total_in_bed_time_milli",
@@ -31,7 +31,37 @@ MILLI_TO_HOURS_COLUMNS = [
     "total_rem_sleep_time_milli"
 ]
 
+# Model location 
+MODEL_PATH = os.path.join(os.path.dirname(__file__), '..', 'models', 'whoop_recovery_predictor.pkl')
 
-# Anomalous day flag / alcohol consumption flag thresholds ──────────────────────────
-RED_RECOVERY_SCORE_THRESHOLD = 34
-HRV_SURPRESSION_LEVEL = 0.67 # Used to find values with a 33% decrease in HRV which is associated with alcohol consumption the next day based on the study: https://journals.physiology.org
+# Shap Feature Grouping
+FEATURE_GROUPS = {
+    'Physiological': [
+        'recovery_score',
+        'hrv_rmssd_milli',
+        'hrv_rmssd_milli_rolling_avg_7',
+        'resting_heart_rate',
+        'resting_heart_rate_rolling_avg_7',
+        'skin_temp_celsius',
+        'respiratory_rate'
+    ],
+    'Training Load': [
+        'cycle_strain',
+        'cycle_strain_rolling_avg_7',
+        'cycle_avg_heart_rate',
+        'cycle_kilojoule',
+        'day_of_week'
+    ],
+    'Sleep': [
+        'total_sleep_time_hours',
+        'total_rem_sleep_time_hours',
+        'total_in_bed_time_hours',
+        'sleep_efficiency_percentage',
+        'sleep_performance_percentage',
+        'sleep_consistency_percentage',
+        'sleep_start_local_decimal',
+        'sleep_end_local_decimal',
+        'disturbance_count',
+        'sleep_needed_need_from_recent_strain_milli'
+    ]
+}
