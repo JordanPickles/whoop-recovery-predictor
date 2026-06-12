@@ -46,23 +46,6 @@ class FeatureEngineer():
         self.df['recovery_score_shift'] = self.df['recovery_score'].shift(-1)
         return self.df
 
-    def create_anomalous_day_flag(self, recovery_score_col:str, recovery_threshold:int, hrv_threshold:float) -> pd.DataFrame:
-        """Creates a new binary column 'anomalous_day_flag' that indicates whether the recovery score for a given day is below a specified threshold.
-        Args:
-            recovery_score_col (str): The name of the column containing recovery scores.
-            recovery_threshold (int): The threshold value below which a day is considered anomalous.
-            hrv_threshold (float): The threshold value for HRV suppression.
-        Returns:
-            pd.DataFrame: DataFrame with the new 'anomalous_day_flag' column."""
-        
-        try:
-            hrv_median = self.df['hrv_rmssd_milli'].median() # median is more robust to the outliers we know are present
-            low_hrv_threshold = hrv_median * hrv_threshold # more conservative requiring the larger decrease based on the study of 33% decrease 
-            self.df['anomalous_day_flag'] = ((self.df['recovery_score'] < recovery_threshold) & (self.df['hrv_rmssd_milli'] < low_hrv_threshold)).astype(int)
-        except Exception as e:
-            print(f"Error creating anomalous_day_flag feature: {e}")
-        return self.df
-
     
     def create_sleep_decimal_score(self, col_sleep_start:str, col_sleep_end:str) -> pd.DataFrame:
         """Creates new columns for sleep start and end times in decimal format, where times before noon are represented as their hour value and times after midnight are represented as their hour value plus 24.
