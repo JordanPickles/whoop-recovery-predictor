@@ -4,8 +4,9 @@ import os
 import json
 from typing import Optional
 
-ENV_PATH = Path(__file__).resolve().parents[2] / ".env"
-TOKENS_JSON_PATH = Path(__file__).resolve().parents[2] / ".secrets/tokens.json"
+ENV_PATH = Path(__file__).resolve().parents[1] / ".env"
+TOKENS_JSON_PATH = Path(__file__).resolve().parents[1] / ".secrets/tokens.json"
+
 
 class Settings(BaseSettings):
     db_user:str
@@ -16,7 +17,7 @@ class Settings(BaseSettings):
 
 
     class Config:
-        env_file = ".env"
+        env_file = Path(__file__).resolve().parents[1] / ".env"
         env_file_encoding = "utf-8"
 
 settings = Settings()
@@ -46,3 +47,22 @@ FEATURE_GROUPS = {
         'respiratory_rate'
     ],
     'Training Load': [
+        'cycle_strain',
+        'cycle_strain_rolling_avg_7',
+        'cycle_avg_heart_rate',
+        'cycle_kilojoule',
+        'day_of_week'
+    ],
+    'Sleep': [
+        'total_sleep_time_hours',
+        'total_rem_sleep_time_hours',
+        'total_in_bed_time_hours',
+        'sleep_efficiency_percentage',
+        'sleep_performance_percentage',
+        'sleep_consistency_percentage',
+        'sleep_start_local_decimal',
+        'sleep_end_local_decimal',
+        'disturbance_count',
+        'sleep_needed_need_from_recent_strain_milli'
+    ]
+}
