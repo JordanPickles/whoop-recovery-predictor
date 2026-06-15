@@ -45,9 +45,6 @@ class DataPipeline():
 
         df_engineered = engineer.create_day_of_week(date_col='date_local')
         logger.info("Day of week feature created successfully.")
-        
-        df_engineered = engineer.create_anomalous_day_flag(recovery_score_col='recovery_score', recovery_threshold=config.RED_RECOVERY_SCORE_THRESHOLD, hrv_threshold=config.HRV_SURPRESSION_LEVEL)
-        logger.info("Anomalous day flag created successfully.")
 
         df_engineered = engineer.create_sleep_decimal_score(col_sleep_start='sleep_start_local', col_sleep_end='sleep_end_local')
         logger.info("Sleep decimal score created successfully.")

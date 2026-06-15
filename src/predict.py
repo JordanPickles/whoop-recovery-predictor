@@ -21,9 +21,9 @@ class OutputPrediction():
         
         input_values = self.find_input_values()
         
-        prediction_date = input_values['date_local']
+        prediction_date = pd.Timestamp(input_values['date_local'].values[0]).strftime('%d.%m.%Y')
 
-        input_values_column_list = [col for col in input_values if col != 'date_local']
+        input_values_column_list = [col for col in input_values if col not in ['date_local', 'recovery_score_shift']]
         inference_input_values = input_values[input_values_column_list]
         
         model = self.load_model(self.model_path)  
@@ -56,8 +56,8 @@ class OutputPrediction():
         return input_values
 
     def run_inference(self, inference_input_values, model) -> int:
-        
-        recovery_score_prediction=model.predict(inference_input_values)
+
+        recovery_score_prediction = float(model.predict(inference_input_values)[0])
 
         return recovery_score_prediction
     
