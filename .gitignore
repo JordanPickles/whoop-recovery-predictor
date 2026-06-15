@@ -9,3 +9,5 @@ data/processed/*
 __pycache__/
 *.pyc
 .env
+models/
+*.pkl
