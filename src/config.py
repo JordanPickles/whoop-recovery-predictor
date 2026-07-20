@@ -33,7 +33,7 @@ MILLI_TO_HOURS_COLUMNS = [
 ]
 
 # Model location 
-MODEL_PATH = os.path.join(os.path.dirname(__file__), '..', 'models', 'whoop_recovery_predictor.pkl')
+MODEL_PATH = os.path.join(os.path.dirname(__file__), '..', 'models', 'lasso_recovery_model.joblib')
 
 # Shap Feature Grouping
 FEATURE_GROUPS = {

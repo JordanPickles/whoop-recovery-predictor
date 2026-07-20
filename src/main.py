@@ -29,9 +29,6 @@ class DataPipeline():
         df_processed = wrangler.create_total_sleep_time_hours()
         logger.info("Total sleep time hours created successfully.")
 
-        df_processed = wrangler.handle_missing_values()
-        logger.info("Missing values handled successfully.")
-
         df_processed = wrangler.convert_to_local_time(['sleep_start', 'sleep_end', 'date'])
         logger.info("Local Timestamps converted into new columns successfully.")
         return df_processed
@@ -55,7 +52,8 @@ class DataPipeline():
         df_engineered = engineer.drop_features()
         logger.info("Columns selected successfully")
     
-
+        df_engineered = engineer.drop_rows_with_na_recovery_shift_score()
+        logger.info("Null rows dropped successfully")
         
         return df_engineered
 

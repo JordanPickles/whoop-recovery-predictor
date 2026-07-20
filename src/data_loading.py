@@ -102,5 +102,5 @@ class WhoopDB():
         
 
 if __name__ == "__main__":
-    data = WhoopDB().load_raw_data(query_text)
+    data = WhoopDB().load_initial_whoop_data()
     print(data.head())

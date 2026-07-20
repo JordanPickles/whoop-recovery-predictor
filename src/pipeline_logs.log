@@ -1257,3 +1257,112 @@
 2026-06-15 06:13:40,676 - main - INFO - Sleep decimal score created successfully.
 2026-06-15 06:13:40,676 - main - INFO - Recovery score shift created successfully
 2026-06-15 06:13:40,679 - main - INFO - Columns selected successfully
+2026-07-18 08:56:00,142 - main - INFO - Database connection established successfully.
+2026-07-18 08:56:05,084 - main - INFO - Data loaded successfully. Number of records: 920
+2026-07-18 08:56:05,099 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-18 08:56:05,101 - main - INFO - Total sleep time hours created successfully.
+2026-07-18 08:56:05,110 - main - INFO - Missing values handled successfully.
+2026-07-18 08:56:05,120 - main - INFO - Local Timestamps converted into new columns successfully.
+2026-07-18 08:56:05,127 - main - INFO - Rolling averages created successfully.
+2026-07-18 08:56:05,130 - main - INFO - Day of week feature created successfully.
+2026-07-18 08:56:05,138 - main - INFO - Sleep decimal score created successfully.
+2026-07-18 08:56:05,139 - main - INFO - Recovery score shift created successfully
+2026-07-18 08:56:05,141 - main - INFO - Columns selected successfully
+2026-07-18 08:59:03,630 - main - INFO - Database connection established successfully.
+2026-07-18 08:59:03,750 - main - INFO - Data loaded successfully. Number of records: 920
+2026-07-18 08:59:03,760 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-18 08:59:03,761 - main - INFO - Total sleep time hours created successfully.
+2026-07-18 08:59:03,768 - main - INFO - Missing values handled successfully.
+2026-07-18 08:59:03,774 - main - INFO - Local Timestamps converted into new columns successfully.
+2026-07-18 08:59:03,777 - main - INFO - Rolling averages created successfully.
+2026-07-18 08:59:03,778 - main - INFO - Day of week feature created successfully.
+2026-07-18 08:59:03,786 - main - INFO - Sleep decimal score created successfully.
+2026-07-18 08:59:03,787 - main - INFO - Recovery score shift created successfully
+2026-07-18 08:59:03,789 - main - INFO - Columns selected successfully
+2026-07-18 09:06:08,579 - main - INFO - Database connection established successfully.
+2026-07-18 09:06:08,720 - main - INFO - Data loaded successfully. Number of records: 920
+2026-07-18 09:06:08,735 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-18 09:06:08,736 - main - INFO - Total sleep time hours created successfully.
+2026-07-18 09:06:08,748 - main - INFO - Missing values handled successfully.
+2026-07-18 09:06:08,761 - main - INFO - Local Timestamps converted into new columns successfully.
+2026-07-18 09:06:08,769 - main - INFO - Rolling averages created successfully.
+2026-07-18 09:06:08,772 - main - INFO - Day of week feature created successfully.
+2026-07-18 09:06:08,782 - main - INFO - Sleep decimal score created successfully.
+2026-07-18 09:06:08,783 - main - INFO - Recovery score shift created successfully
+2026-07-18 09:06:08,785 - main - INFO - Columns selected successfully
+2026-07-19 14:11:21,725 - main - INFO - Database connection established successfully.
+2026-07-19 14:11:21,914 - main - INFO - Data loaded successfully. Number of records: 921
+2026-07-19 14:11:21,932 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-19 14:11:21,934 - main - INFO - Total sleep time hours created successfully.
+2026-07-19 14:11:21,943 - main - INFO - Missing values handled successfully.
+2026-07-19 14:11:21,955 - main - INFO - Local Timestamps converted into new columns successfully.
+2026-07-19 14:11:21,966 - main - INFO - Rolling averages created successfully.
+2026-07-19 14:11:21,969 - main - INFO - Day of week feature created successfully.
+2026-07-19 14:11:21,977 - main - INFO - Sleep decimal score created successfully.
+2026-07-19 14:11:21,978 - main - INFO - Recovery score shift created successfully
+2026-07-19 14:11:21,979 - main - INFO - Columns selected successfully
+2026-07-19 14:58:58,474 - main - INFO - Database connection established successfully.
+2026-07-19 14:58:58,667 - main - INFO - Data loaded successfully. Number of records: 921
+2026-07-19 14:58:58,697 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-19 14:58:58,698 - main - INFO - Total sleep time hours created successfully.
+2026-07-19 14:59:09,275 - main - INFO - Database connection established successfully.
+2026-07-19 14:59:09,455 - main - INFO - Data loaded successfully. Number of records: 921
+2026-07-19 14:59:09,479 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-19 14:59:09,482 - main - INFO - Total sleep time hours created successfully.
+2026-07-19 14:59:20,648 - main - INFO - Database connection established successfully.
+2026-07-19 14:59:20,775 - main - INFO - Data loaded successfully. Number of records: 921
+2026-07-19 14:59:20,788 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-19 14:59:20,789 - main - INFO - Total sleep time hours created successfully.
+2026-07-19 14:59:48,319 - main - INFO - Database connection established successfully.
+2026-07-19 14:59:48,511 - main - INFO - Data loaded successfully. Number of records: 921
+2026-07-19 14:59:48,540 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-19 14:59:48,542 - main - INFO - Total sleep time hours created successfully.
+2026-07-19 15:00:28,415 - __main__ - INFO - Database connection established successfully.
+2026-07-19 15:00:28,536 - __main__ - INFO - Data loaded successfully. Number of records: 921
+2026-07-19 15:00:28,547 - __main__ - INFO - milliseconds to hours conversion completed successfully.
+2026-07-19 15:00:28,548 - __main__ - INFO - Total sleep time hours created successfully.
+2026-07-19 15:00:28,559 - __main__ - INFO - Local Timestamps converted into new columns successfully.
+2026-07-19 15:00:28,567 - __main__ - INFO - Rolling averages created successfully.
+2026-07-19 15:00:28,570 - __main__ - INFO - Day of week feature created successfully.
+2026-07-19 15:00:28,582 - __main__ - INFO - Sleep decimal score created successfully.
+2026-07-19 15:00:28,583 - __main__ - INFO - Recovery score shift created successfully
+2026-07-19 15:00:28,587 - __main__ - INFO - Columns selected successfully
+2026-07-19 15:06:51,594 - main - INFO - Database connection established successfully.
+2026-07-19 15:06:52,018 - main - INFO - Data loaded successfully. Number of records: 921
+2026-07-19 15:06:52,039 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-19 15:06:52,042 - main - INFO - Total sleep time hours created successfully.
+2026-07-19 15:07:21,181 - main - INFO - Database connection established successfully.
+2026-07-19 15:07:21,329 - main - INFO - Data loaded successfully. Number of records: 921
+2026-07-19 15:07:21,343 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-19 15:07:21,344 - main - INFO - Total sleep time hours created successfully.
+2026-07-19 15:07:37,097 - main - INFO - Database connection established successfully.
+2026-07-19 15:07:37,228 - main - INFO - Data loaded successfully. Number of records: 921
+2026-07-19 15:07:37,237 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-19 15:07:37,240 - main - INFO - Total sleep time hours created successfully.
+2026-07-19 15:07:56,927 - main - INFO - Database connection established successfully.
+2026-07-19 15:07:57,139 - main - INFO - Data loaded successfully. Number of records: 921
+2026-07-19 15:07:57,157 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-19 15:07:57,160 - main - INFO - Total sleep time hours created successfully.
+2026-07-19 15:09:16,680 - main - INFO - Database connection established successfully.
+2026-07-19 15:09:16,863 - main - INFO - Data loaded successfully. Number of records: 921
+2026-07-19 15:09:16,881 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-19 15:09:16,902 - main - INFO - Total sleep time hours created successfully.
+2026-07-19 15:09:48,998 - main - INFO - Database connection established successfully.
+2026-07-19 15:09:49,170 - main - INFO - Data loaded successfully. Number of records: 921
+2026-07-19 15:09:49,206 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-19 15:09:49,211 - main - INFO - Total sleep time hours created successfully.
+2026-07-19 15:10:26,735 - main - INFO - Database connection established successfully.
+2026-07-19 15:10:26,867 - main - INFO - Data loaded successfully. Number of records: 921
+2026-07-19 15:10:26,879 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-19 15:10:26,882 - main - INFO - Total sleep time hours created successfully.
+2026-07-19 15:10:42,080 - main - INFO - Database connection established successfully.
+2026-07-19 15:10:42,232 - main - INFO - Data loaded successfully. Number of records: 921
+2026-07-19 15:10:42,246 - main - INFO - milliseconds to hours conversion completed successfully.
+2026-07-19 15:10:42,248 - main - INFO - Total sleep time hours created successfully.
+2026-07-19 15:10:42,352 - main - INFO - Local Timestamps converted into new columns successfully.
+2026-07-19 15:10:42,401 - main - INFO - Rolling averages created successfully.
+2026-07-19 15:10:42,411 - main - INFO - Day of week feature created successfully.
+2026-07-19 15:10:42,472 - main - INFO - Sleep decimal score created successfully.
+2026-07-19 15:10:42,479 - main - INFO - Recovery score shift created successfully
+2026-07-19 15:10:42,485 - main - INFO - Columns selected successfully
+2026-07-19 15:10:42,516 - main - INFO - Null rows dropped successfully

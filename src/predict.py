@@ -8,7 +8,7 @@ import shap
 class OutputPrediction():
     def __init__(self, df):
         self.df=df
-        self.model_path=config.MODEL_PATH
+        self.model_path_predict=config.MODEL_PATH_PREDICT
         self.shap_groupings=config.FEATURE_GROUPS
 
     def predict_recovery_score(self) -> dict:
