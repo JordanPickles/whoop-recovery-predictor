@@ -67,6 +67,9 @@ class FeatureEngineer():
             print(f"Error creating sleep_decimal_score feature: {e}")
         return self.df
 
+    def drop_rows_with_na_recovery_shift_score(self) -> pd.DataFrame:
+        self.df = self.df.dropna(subset=['recovery_score_shift'])
+        return self.df
 
     def drop_features(self) -> pd.DataFrame:
         cols_to_drop = [

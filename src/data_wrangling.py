@@ -24,17 +24,18 @@ class DataWrangler():
             pd.DataFrame: DataFrame with the new 'total_sleep_time_hours' column."""
         self.df["total_sleep_time_hours"] = self.df["total_light_sleep_time_hours"] + self.df["total_slow_wave_sleep_time_hours"] + self.df["total_rem_sleep_time_hours"]
         return self.df
+
     
-    def handle_missing_values(self):
-        """
-        Handles missing values in the DataFrame by filling numeric columns with the median and categorical columns with the mode.
-        """
-        for col in self.df.columns:
-            if self.df[col].isnull().sum() > 0:
-                if self.df[col].dtype in ['float64', 'int64']:
-                    self.df[col] = self.df[col].fillna(self.df[col].median())
-                else:
-                    self.df[col] = self.df[col].fillna(self.df[col].mode()[0])
+    # def handle_missing_values(self):
+    #     """
+    #     Handles missing values in the DataFrame by filling numeric columns with the median and categorical columns with the mode.
+    #     """
+    #     for col in self.df.columns:
+    #         if self.df[col].isnull().sum() > 0:
+    #             if self.df[col].dtype in ['float64', 'int64']:
+    #                 self.df[col] = self.df[col].fillna(self.df[col].median())
+    #             else:
+    #                 self.df[col] = self.df[col].fillna(self.df[col].mode()[0])
 
 
     def convert_to_local_time(self, cols:list, timezone_col:str = "timezone_offset"):
