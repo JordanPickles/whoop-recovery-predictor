@@ -22,7 +22,6 @@ The use case for this is to act as an evening planning tool to help the user del
 
 ## Deployment
 - Currently deployed on Streamlit Cloud: [Whoop Recovery Predictor](https://whoop-recovery-predictor.streamlit.app/)
-- Performance currently poor and aiming to deploy on an alternative provider to improve interactivity
 
 ## Status / Roadmap
 Project in active development.
@@ -40,5 +39,6 @@ In progress / planned:
 - [ ] Model Training transfered from .ipynb into .py files
 - [ ] Finish the creation of predicted sleep consistency
 - [ ] Develop expected sleep input variables in streamlit app
-- [ ] Deploy streamlit app to different vps to improve performance
+- [ ] Push predictions into Supabase table and track prediction vs actual within the app
+- [ ] Implement regular model retraining
 - [ ] Implement CI/CD, tests etc
