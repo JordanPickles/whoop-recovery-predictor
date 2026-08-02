@@ -105,7 +105,8 @@ with col1:
         }]
     )
     st.plotly_chart(fig, use_container_width=True)
-    st.markdown(f'<div class="metric-label" style="text-align:center">Tomorrow's Predicted recovery</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="metric-label" style="text-align:center">Tomorrow\'s Predicted recovery</div>', unsafe_allow_html=True)
+
 
 with col2:
     st.markdown('<div class="section-label">Today\'s metrics</div>', unsafe_allow_html=True)
