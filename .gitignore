@@ -9,6 +9,7 @@ data/processed/*
 __pycache__/
 *.pyc
 .env
+*.pkl
 models/*
 !models/xgboost_model.pkl
-*.pkl
+
