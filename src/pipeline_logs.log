@@ -1577,3 +1577,13 @@
 2026-08-02 21:03:53,014 - main - INFO - Sleep decimal score created successfully.
 2026-08-02 21:03:53,015 - main - INFO - Recovery score shift created successfully
 2026-08-02 21:03:53,018 - main - INFO - Columns selected successfully
+2026-08-02 22:23:41,903 - src.main - INFO - Database connection established successfully.
+2026-08-02 22:23:41,991 - src.main - INFO - Data loaded successfully. Number of records: 9
+2026-08-02 22:23:42,029 - src.main - INFO - milliseconds to hours conversion completed successfully.
+2026-08-02 22:23:42,031 - src.main - INFO - Total sleep time hours created successfully.
+2026-08-02 22:23:42,042 - src.main - INFO - Local Timestamps converted into new columns successfully.
+2026-08-02 22:23:42,053 - src.main - INFO - Rolling averages created successfully.
+2026-08-02 22:23:42,059 - src.main - INFO - Day of week feature created successfully.
+2026-08-02 22:23:42,070 - src.main - INFO - Sleep decimal score created successfully.
+2026-08-02 22:23:42,071 - src.main - INFO - Recovery score shift created successfully
+2026-08-02 22:23:42,075 - src.main - INFO - Columns selected successfully
