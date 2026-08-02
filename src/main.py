@@ -18,7 +18,7 @@ class DataPipeline():
         logger.info("Database connection established successfully.")
 
     def pre_process_data(self) -> pd.DataFrame:
-        df_initial_data = self.db.load_initial_whoop_data()
+        df_initial_data = self.db.load_whoop_data_for_prediction()
         logger.info("Data loaded successfully. Number of records: %d", len(df_initial_data))
         
         wrangler = DataWrangler(df_initial_data)
@@ -52,8 +52,8 @@ class DataPipeline():
         df_engineered = engineer.drop_features()
         logger.info("Columns selected successfully")
     
-        df_engineered = engineer.drop_rows_with_na_recovery_shift_score()
-        logger.info("Null rows dropped successfully")
+        # df_engineered = engineer.drop_rows_with_na_recovery_shift_score()
+        # logger.info("Null rows dropped successfully")
         
         return df_engineered
 
