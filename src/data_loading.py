@@ -6,7 +6,7 @@ from sqlalchemy.engine import Engine
 
 from sqlalchemy.orm import sessionmaker
 
-from config import settings 
+from .config import settings 
 
 
 
