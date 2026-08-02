@@ -2,10 +2,10 @@ from .data_loading import WhoopDB
 from .data_wrangling import DataWrangler
 from .feature_engineering import FeatureEngineer
 import logging
-from logging_config import setup_logging
+from .logging_config import setup_logging
 import pandas as pd
 import time
-import config
+from . import config
 from pydantic_settings import BaseSettings
 
 
