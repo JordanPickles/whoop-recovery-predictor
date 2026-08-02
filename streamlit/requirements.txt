@@ -1,2 +1,17 @@
 plotly==6.9.0
 predict==3.2.0
+streamlit
+pandas==1.5.2
+numpynumpy==2.2.6
+scikit-learn==1.4.2
+xgboost==2.1.1
+shap==0.46.0
+supabase
+python-dotenv
+matplotlib==3.10.8
+matplotlib-inline==0.2.1
+psycopg2-binary==2.9.11
+pydantic==2.12.3
+pydantic-settings==2.11.0
+pydantic_core==2.41.4
+SQLAlchemy==2.0.5.post1
