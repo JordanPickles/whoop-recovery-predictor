@@ -2,7 +2,7 @@
 import pandas as pd
 import numpy as np
 import joblib
-import config
+from . import config
 import shap
 
 class OutputPrediction():
