@@ -8,7 +8,7 @@ import shap
 class OutputPrediction():
     def __init__(self, df):
         self.df=df
-        self.model_path_predict=config.MODEL_PATH_PREDICT
+        self.model_path=config.MODEL_PATH
         self.shap_groupings=config.FEATURE_GROUPS
 
     def predict_recovery_score(self) -> dict:
@@ -20,8 +20,7 @@ class OutputPrediction():
             prediction_date"""
         
         input_values = self.find_input_values()
-        
-        prediction_date = pd.Timestamp(input_values['date_local'].values[0]).strftime('%d.%m.%Y')
+        prediction_date = pd.Timestamp(input_values['date_local'].iloc[0]).strftime('%d.%m.%Y')
 
         input_values_column_list = [col for col in input_values if col not in ['date_local', 'recovery_score_shift']]
         inference_input_values = input_values[input_values_column_list]
